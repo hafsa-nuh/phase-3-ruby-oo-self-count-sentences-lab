@@ -15,7 +15,7 @@ class String
   end
 
   def count_sentences
-    sent_end =
+    counts_end =
     # returns the number of sentences in a complex string [fails ==  split(/[.?!]/)]
     arr = self.split(/[.?!] /)
     arr.length
